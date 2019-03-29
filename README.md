@@ -32,10 +32,19 @@ See the [Docs](https://hexdocs.pm/coherence/Coherence.html) and [Wiki](https://g
 ## Installation
 
   1. Add coherence to your list of dependencies in `mix.exs`:
+  
+     If your application use phoenix version ~> 1.4:
 
       ```elixir
       def deps do
         [{:coherence, github: "appprova/coherence"}]
+      end
+      ```
+     For phoenix application using version < 1.4:
+     
+     ```elixir
+      def deps do
+        [{:coherence, "~> 0.6"}]
       end
       ```
 
