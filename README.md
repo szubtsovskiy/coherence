@@ -35,7 +35,7 @@ See the [Docs](https://hexdocs.pm/coherence/Coherence.html) and [Wiki](https://g
 
       ```elixir
       def deps do
-        [{:coherence, "~> 0.6"}]
+        [{:coherence, github: "appprova/coherence"}]
       end
       ```
 
