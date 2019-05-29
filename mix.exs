@@ -61,7 +61,7 @@ defmodule Coherence.Mixfile do
       {:postgrex, "~> 0.14.0", only: :test},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
       {:credo, "~> 0.8", only: [:dev, :test]},
-      {:plug, "~> 1.7.1"},
+      {:plug, "~> 1.7.1 or ~> 1.8"},
       {:jason, "~> 1.0"}
     ]
   end
